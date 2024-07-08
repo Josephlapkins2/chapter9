@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>file:///C:/Users/josep/Documents/chapter9/JosephReservationsindex%20(3).html</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="josephpacific.css">
+</head>
+<body> 
+<header>
+   <h1> <a href="file:///C:/Users/josep/Documents/chapter9/Josephindex%20(3).html" target="_black">Pacific Trails Resort</a> </h1> 
+</header>
+
+<nav> <ul> <li> <a href="file:///C:/Users/josep/Documents/chapter9/Josephhomeindex%20(3).html" target="_blank">home</a></li>  <li> <a href="file:///C:/Users/josep/Documents/chapter9/Josephyurtsindex%20(3).html" target="_blank">Yurts</a></li> <li> <a href="file:///C:/Users/josep/Documents/chapter9/JosephActivitiesindex%20(3).html" target="_blank">Activities</a></li>  <li>    <a href="file:///C:/Users/josep/Documents/chapter9/JosephReservationsindex%20(3).html" target="_blank">Reservations</a></li> </ul> </nav>
+ <div id="wrapper">
+  <div id="reshero">
+  </div>
+  <main>
+    <h2>Reservations at Pacific Trails</h2>
+    <h3>Contact Us</h3>
+	<p>Required fields are marked with an asterisk *</p>
+	 <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+       <label for="myFName">*First Name: </label><input type="text" id="myFName" name="myFName" required>
+       <label for="myLName">*Last Name: </label><input type="text" id="myLName" name="myLName" required>
+	   <label for= "myAddress">Mail Address</label><input type="text" id="myAddress" name="myAddress">
+       <label for="myEmail">*E-mail: </label><input type="email" id="myEmail" name="myEmail" required>
+       <label for="myPhone">Phone: </label><input type="tel" id="myPhone" name="myPhone">
+       <label for="myDate">Arrival Date: </label><input type="date" id="myDate" name="myDate">
+	   <label for="myDate">Departure Date: </label><input type="date" id="myDate" name="myDate">
+       <label for="myNights">Nights: </label><input type="number" id="myNights" name="myNights" min="1" max="14">
+       <label for="myComments">*Comments: </label><textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea>
+       <input type="submit" id="mySubmit" value="Submit">
+	  </form>
+  </main>
+  <footer>
+ Copyright © 2020 Pacific Trails Resort  <br>
+<a href="joseph@lampkins.com">joseph@lampkins.com</a>
+  </footer>
+</div>
+</body>
+</html>
